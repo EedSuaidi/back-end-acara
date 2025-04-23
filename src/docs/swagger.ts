@@ -24,9 +24,19 @@ const doc = {
       },
     },
     schemas: {
+      RegisterRequest: {
+        fullName: "Eed Suaidi",
+        username: "eedsuaidi",
+        email: "eedrpl@gmail.com",
+        password: "password123",
+        confirmPassword: "password123",
+      },
       LoginRequest: {
         identifier: "eedsuaidi",
         password: "password123",
+      },
+      ActivationRequest: {
+        code: "abcdef",
       },
     },
   },
